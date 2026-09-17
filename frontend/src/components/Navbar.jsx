@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { GraduationCap, Users, BookOpen, Building2, Server } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, apiOnline }) {
@@ -40,10 +40,10 @@ export default function Navbar({ activeTab, setActiveTab, apiOnline }) {
         </nav>
 
         <div className="navbar-status">
-          <div className={`status-pill ${apiOnline ? 'online' : 'offline'}`}>
+          <div className={`status-pill ${apiOnline ? 'online' : 'demo'}`}>
             <span className="status-dot"></span>
             <Server size={14} />
-            <span>API: {apiOnline ? 'Online (DRF)' : 'Disconnected'}</span>
+            <span>{apiOnline ? 'API: Online (Django)' : 'Live Demo (LocalStorage)'}</span>
           </div>
         </div>
       </div>

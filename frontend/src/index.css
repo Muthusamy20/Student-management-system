@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   
   /* Color Palette */
@@ -166,6 +166,12 @@ body {
   background-color: #ecfdf5;
   color: #065f46;
   border: 1px solid #a7f3d0;
+}
+
+.status-pill.demo {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
 }
 
 .status-pill.offline {
